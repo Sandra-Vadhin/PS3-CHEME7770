@@ -5,6 +5,6 @@ To check elemental balances of the cycle, run the following in the Julia REPL:
 
 	julia> include("ElementalBalances.jl")
 	
-To check the FBA solution, run the following in the Julia REPL:
+The FBA solution file Solve.jl calls Network.dat, DataDictionary.jl, and Flux.jl. To check the solution, enter the following in the Julia REPL:
 
 	julia> include("Solve.jl")
